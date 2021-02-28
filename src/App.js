@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Conway's Game of Life</h1>
+      <p>
+        Its a single-player evolution game, where you determine the next state
+        based only on the current state. This means that no external factors
+        come into play. Its kinda like a `pure function`.
+      </p>
+      <p>
+        The game depends on a certain rules. Read more about them
+        <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life"> here</a>
+      </p>
+      <button>Randomize</button>
+      <button className="marginLeft">Next</button>
     </div>
   );
 }
