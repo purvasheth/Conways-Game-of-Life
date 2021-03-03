@@ -11,3 +11,24 @@
 .marginLeft {
   margin-left: 1rem;
 }
+
+.grid {
+  box-sizing: border-box;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  background: lightgrey;
+}
+
+.row {
+  display: flex;
+  flex: 100%;
+}
+
+.col {
+  flex: 100%;
+}
+
+.dark {
+  background: black;
+}
